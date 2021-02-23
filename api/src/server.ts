@@ -1,14 +1,13 @@
+import 'reflect-metadata';
+import './database'
 import express from 'express';
+import { router } from './routes';
 
 const app = express();
 
-app.get('/', (req, res) => {
-    return res.json({ message: "NLW04"})
-})
+app.use(express.json())
 
-app.post('/', (req, res) => {
-    return res.json({ message: "NLW04"})
-})
+app.use(router);
 
 app.listen(3333, () => {
     console.log(`Server Running in port 3333::\nhttp://localhost:3333`)

@@ -1,0 +1,7 @@
+yarn dev
+
+yarn add <package>
+
+yarn typeorm migration:create -n <migration_name>
+yarn typeorm migration:run
+yarn typeorm migration:revert
