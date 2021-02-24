@@ -5,3 +5,11 @@ yarn add <package>
 yarn typeorm migration:create -n <migration_name>
 yarn typeorm migration:run
 yarn typeorm migration:revert
+
+Testes Automatizados
+
+1 - Testes Unitários
+2 - Testes de Integração
+    request -> routes -> controller -> repository
+    repository <- controller <- response
+3 - Tested de Ponta a Ponta <e2e> (EndToEnd)
