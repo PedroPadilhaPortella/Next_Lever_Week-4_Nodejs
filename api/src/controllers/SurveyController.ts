@@ -2,7 +2,8 @@ import { getCustomRepository } from 'typeorm';
 import { Response, Request } from 'express';
 import { SurveyRepository } from '../repositories/SurveyRepository';
 
-class SurveyController {
+class SurveyController
+{
     async create(request: Request, response: Response)
     {
         const { title, description } = request.body
