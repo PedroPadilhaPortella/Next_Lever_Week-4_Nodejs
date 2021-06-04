@@ -4,13 +4,13 @@
 <p align="center">Durante o projeto, foi desenvolvido uma api de email que registra as notas de uma pesquisa via fake email</p>
 <img align="center" src="https://github.com/PedroPadilhaPortella/Next_Lever_Week-4_Nodejs/blob/master/.github/email.PNG">
 
-<h3 align="center">Recursos Necessários para o Projeto</h3>
+<h2 align="center"> :computer: Recursos Necessários para o Projeto</h2>
 
 * Node
 * Npm ou Yarn
 * Visual Studio Code
 
-### Para rodar o projeto, execute: 
+### :running:  Para rodar o projeto, execute: 
 
 ```npm install```
  
